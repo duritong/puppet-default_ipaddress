@@ -1,0 +1,15 @@
+{
+  "name": "duritong-default_ipaddress",
+  "version": "0.0.1",
+  "author": "duritong",
+  "summary": "Workaround facter 2 bug",
+  "license": "Apache-2.0",
+  "source": "https://github.com/duritong/puppet-default_ipaddress",
+  "project_page": "https://github.com/duritong/puppet-default_ipaddress",
+  "issues_url": "https://github.com/duritong/puppet-default_ipaddress/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
