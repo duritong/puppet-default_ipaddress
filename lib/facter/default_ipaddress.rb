@@ -6,7 +6,7 @@ Facter.add("default_interface") do
     routes.split("\n").each do |line|
       parts = line.split
       if parts[1] == "00000000"
-        def_interface = parts[0].gsub(/[^a-z0-9_]/i, '_')
+        def_interface = parts[0]
         break
       end
     end
